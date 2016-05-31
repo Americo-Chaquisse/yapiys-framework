@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3545a464-4b90-45e5-b017-c5ade98b2e75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/fonts/glyphicons-halflings-regular.93d41d.delayed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/yapiys/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/yapiys/js/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/h4cker.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/yapiys-framework.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/API/UtilAPI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/json/app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/json/routing.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/php/active-record.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/php/mongodb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/_AppEventsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/dependencies/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/dependencies/jquery-2.0.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/main/setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/start.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/CLIDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/ActiveRecord.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/ActiveRecordMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/CallBack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Column.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/ConnectionManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/DateTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Expressions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Reflections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Relationship.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/SQLBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Serialization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Singleton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/Validations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/adapters/MysqlAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/adapters/OciAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/adapters/PgsqlAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/adapters/SqliteAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/activerecord/lib/cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/auth/AccessManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/auth/AcessManagerBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/auth/AppUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/basic_outside.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/cache/CacheInSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/cli_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/AbstractBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/AppInstance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/Framework.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/basic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/core/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/db/AbstractDataMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/db/AbstractModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/db/AppData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/debug/DebugChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/debug/ErrorHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/defaults/AppExtendedWebService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/defaults/AppModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/defaults/AppModuleBorder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/defaults/AppWebService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/events/ApplicationEvents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/events/EventsBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/events/SystemEventFeedReceiver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/events/SystemEventsFeed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/APIActionNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/APINotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/AppMissconfigurarionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/UnsersolvedRouteException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/ViewNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/exceptions/YapiysException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/helpers/ArrayEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/helpers/Functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/helpers/MimeExporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/AppController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/Bundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/ModuleBorder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/VCL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/ViewContentProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/hmvc/phpView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/i18n/Internationalization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/js/loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/js/yapiys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/BuiltIn/app/commands/FrameworkShell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/BuiltIn/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/BuiltIn/yapiys/js/imgAjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/Creation/app/commands/GenerateShell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/Creation/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/Creation/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/DList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/DListProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/yapiys/js/dlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DList/yapiys/js/dlist_checker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/DTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/DTableProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/yapiys/js/dtable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/yapiys/js/dtable_backup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/DTable/yapiys/js/dtable_checker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/Interface/app/commands/ProjectShell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/HISTORY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/MIN.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/UPGRADING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/_index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/bm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/bm2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/jquery-1.6.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/ocCheck.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/rewriteTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/builder/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/config-test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/groupsConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/CSSmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/DooDigestAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/FirePHP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/HTTP/ConditionalGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/HTTP/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/JSMin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/JSMinPlus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Build.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/CSS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/CSS/Compressor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/CSS/UriRewriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Cache/APC.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Cache/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Cache/XCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Cache/ZendPlatform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/ClosureCompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/CommentPreserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/Files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/Groups.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/MinApp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/Page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Controller/Version1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/DebugDetector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/HTML/Helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/ImportProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/JS/ClosureCompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Lines.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Packer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/Source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/YUI/CssCompressor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/YUI/CssCompressor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/Minify/YUICompressor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/MrClay/Cli.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/lib/MrClay/Cli/Arg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/quick-test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/quick-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/min/utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/libraries/minify/skip.ignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/loader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/mongo/Inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/mongo/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/mongo/MongoRecord.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/mongo/MongoRecordIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/AbtractPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/PluginsManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/VirtualApp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/VirtualClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/VirtualModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/plugins/VirtualYapiys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/APIRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/AppRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/AppSwitch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/AssetsRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/ControllersRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/HMVCRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/MVCRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/PartialsRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/ViewsDumpRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/routers/YapiysRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/session_manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/sessions/UserSessionBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/setup_routers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/shell/AppExtendedShellCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/shell/AppShell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/webservice/ExtendedWebService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/webservice/PartialWebService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yapiys/webservice/WebService.php" />
+    </list>
+    <ignored path="yapiys-framework.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yapiys-framework" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/config/php/mongodb.php" />
+        <option value="$PROJECT_DIR$/app/config/json/app.json" />
+        <option value="$PROJECT_DIR$/app/controllers/_AppEventsController.php" />
+        <option value="$PROJECT_DIR$/yapiys/session_manager.php" />
+        <option value="$PROJECT_DIR$/app/templates/main/controller.js" />
+        <option value="$PROJECT_DIR$/app/templates/main/setup.js" />
+        <option value="$PROJECT_DIR$/app/config/json/routing.json" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/views/home/index.js" />
+        <option value="$PROJECT_DIR$/app/views/home/start.html" />
+        <option value="$PROJECT_DIR$/app/API/UtilAPI.php" />
+        <option value="$PROJECT_DIR$/app/config/php/active-record.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/templates/main/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-4" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yapiys-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yapiys-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yapiys-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3545a464-4b90-45e5-b017-c5ade98b2e75" name="Default" comment="" />
+      <created>1464697331937</created>
+      <option name="number" value="Default" />
+      <updated>1464697331937</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yapiys/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034013607">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#248#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34013605">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/json/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0689654">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/php/mongodb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3793104">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yapiys/routers/ControllersRouter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34013605">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/_AppEventsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7586207">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yapiys/js/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yapiys/session_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06802721">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <marker date="1464698543742" expanded="true" signature="565:608" placeholder="SELECT data sessions" />
+            <marker date="1464698543742" expanded="true" signature="1277:1314" placeholder="DELETE FROM " />
+            <marker date="1464698543742" expanded="true" signature="1489:1531" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59183675">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/json/routing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06802721">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17006803">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25931928">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/dependencies/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5461913">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yapiys/loader.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/php/active-record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.275862">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#26#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10204082">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/API/UtilAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+{
+
+  "development_base_url":"http://localhost/yapiys-framework/",
+  "production_base_url":"https://production-url.com/",
+  "development":true,
+  "contexts":false,
+  "override_data_configs":true
+}

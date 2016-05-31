@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to Yapiys Framework</title>
+
+    <link rel="stylesheet" href="webroot/main/assets/css/bootstrap.min.css" />
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div content-field='view_content' class="v_content">
+            <div id="view_content" class="page-body">
+                {{view_content}}
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        function loadApp(){
+
+            prepareYapiys(
+                    function(){
+                        //On start
+                    },
+                    //Sync scripts
+                    [
+                        "webroot/main/dependencies/jquery-2.0.2.min.js",
+                        "webroot/main/dependencies/angular.min.js"
+
+                    ],
+                    //Async scripts
+                    [
+                        "webroot/main/setup.js",
+                        "webroot/main/assets/js/bootstrap.min.js"
+                    ],
+                    //Plugin scripts
+                    [
+                        /*"yp/plugins/dlist.js",
+                        "yp/plugins/dtable.js"*/
+                    ],
+
+                    //Before ignition
+                    function(){},
+
+                    //Template images
+                    [],
+
+                    //Push updates
+                    function(){}
+            );
+
+
+        }
+
+    </script>
+
+
+  </body>
+
+</html>

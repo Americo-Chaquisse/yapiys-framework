@@ -1,0 +1,24 @@
+{
+  "directories":[
+    {"path":"models/","app":true},
+    {"path":"auth/"},
+    {"path":"cache/"},
+    {"path":"core/"},
+    {"path":"db/"},
+    {"path":"debug/"},
+    {"path":"defaults/"},
+    {"path":"events/"},
+    {"path":"exceptions/"},
+    {"path":"helpers/"},
+    {"path":"hmvc/"},
+    {"path":"i18n/"},
+    {"path":"activerecord/"},
+    {"path":"plugins/"},
+    {"path":"routers/"},
+    {"path":"sessions/"},
+    {"path":"shell/"},
+    {"path":"webservice/"},
+    {"path":"mongo/"},
+    {"path":"app/webservices/"}
+  ]
+}
