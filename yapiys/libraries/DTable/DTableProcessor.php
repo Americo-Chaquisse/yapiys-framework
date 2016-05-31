@@ -49,7 +49,11 @@ class DTableProcessor {
 
             $tbl = $table_or_class;
 
+          
+
             if(class_exists($table_or_class)){
+
+
 
                 if(property_exists($table_or_class,'table_name')){
 

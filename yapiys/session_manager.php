@@ -1,8 +1,5 @@
 <?php
-/**
- * Only if you want to store sessions to database
- */
-/*
+
 session_set_save_handler('_open','_close','_read','_write', '_destroy', '_clean');
 
 $GLOBALS['_sess_db'] = null;
@@ -96,4 +93,4 @@ class StoreDb{
 
 ini_set('session.cookie_domain', '.domain.com');
 
-if ( empty(session_id()) ) session_start();*/
+if ( empty(session_id()) ) session_start();

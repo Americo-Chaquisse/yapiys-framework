@@ -1,0 +1,44 @@
+<div class="row" style="padding:50px 20px 24px">
+
+    <div class="col-sm-10 col-sm-offset-1">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Contact List Demo</h1>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                <ul>
+                    <dlist limit="3" name="listContacts" row="contact" source="contacts">
+
+                        <list class="inner">
+
+                            <li>
+                                <h3>{{contact.name}} {{contact.surname}}</h3>
+                                <h5 ng-show="contact.phone!=''">{{contact.email}}</h5>
+                                <h4 ng-show="contact.phone!=''">{{contact.phone}}</h4>
+                            </li>
+
+                        </list>
+
+                        <div ng-show="listContacts.no_match">
+                            <h2 style="margin-top: 50px;" align="center">
+                                <span style="font-size: 100px">:(</span><br/><br/>
+                                No contacts found matching query
+                            </h2>
+                        </div>
+
+
+                    </dlist>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

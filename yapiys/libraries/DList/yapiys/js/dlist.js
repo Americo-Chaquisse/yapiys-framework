@@ -538,21 +538,19 @@ DList.angular.initialize = function(moduleInstance){
 
 
                 var hd = '<div class="row wrapper">'+
-                  '<div class="col-sm-2 m-b-xs">'+
-                     '<select ng-options="item as item for item in '+name+'.limits" ng-show="'+name+'.limits_visible" ng-model="'+name+'.limit" class="input-sm form-control w-sm inline v-middle"></select>'+
-                    '<small ng-show="'+name+'.show_limit_label" class="text-muted inline m-t-sm m-b-sm">{{&nbsp;&nbsp;'+name+'.limit_per_page_label}}</small>'+
+                  '<div class="col-sm-3 m-b-xs">'+
+                     '<div class="row"><div class="col-sm-6"> <select ng-options="item as item for item in '+name+'.limits" ng-show="'+name+'.limits_visible" ng-model="'+name+'.limit" class="input-sm form-control w-sm inline v-middle"></select></div>'+
+                    '<div class="col-sm-6" style="padding-left: 0; margin-top: -5px;"> <span ng-show="'+name+'.show_limit_label" class="text-muted inline m-t-sm m-b-sm">{{&nbsp;&nbsp;'+name+'.limit_per_page_label}}</span></div> </div>'+
                   '</div>'+
                   '<div class="col-sm-'+gap+'">'+
                   '</div>'+
-                  '<div class="col-sm-'+find_box_height+'" ng-show="'+name+'.show_input">'+
-                    '<div class="input-group">'+
-                      '<input type="text" class="input-sm form-control" ng-model="'+name+'.filter.string" placeholder="'+filterPlaceholder+'">'+
-                      '<span class="input-group-btn">'+
-                        '<button class="btn btn-sm btn-default" type="button">'+goSearch+'</button>'+
-                      '</span>'+
-                    '</div>'+
+                  '<div class="col-sm-'+find_box_height+'">'+
+                        '<div style="position: relative;">'+
+                            ' <i style="position: absolute; right: 0px; padding: 10px 12px; pointer-events: none;" class="glyphicon glyphicon-search"></i>'+
+                            '<input style="padding-right: 30px;" type="search" ng-model="'+name+'.filter.string" placeholder="'+filterPlaceholder+'" class="form-control" />'+
+                        '</div>'+
                   '</div>'+
-                '</div>';
+                '</div><hr/>';
 
 
                 if(no_header){
@@ -562,60 +560,7 @@ DList.angular.initialize = function(moduleInstance){
                 }
 
 
-                if(footerMode=="default"){
-
-                    var pagination = "<ul style='margin-left:0; padding-left:0;' class='dlist-pagination' ng-show='"+name+".pagination_visible'>" +
-                        "<li ng-class='{\"disabled\":!"+name+".paging.previousGroupAvailable}'>" +
-                        "<a data-kind='contact' href='#' ng-click='"+name+".paging.activateFirst()' ng-disabled='!"+name+".paging.previousGroupAvailable' class='dlist-page'>{{"+name+".first_page_label}}</a>" +
-                        "</li>" +
-
-                        "<li ng-class='{\"disabled\":!"+name+".paging.previousGroupAvailable}'>"+
-                        "<a data-kind='contact' href='#' ng-click='"+name+".paging.activatePrevious()' "+
-                        "ng-disabled='!"+name+".paging.previousGroupAvailable'>"+
-                        "«</a>"+
-                        "</li>"+
-
-                        "<li ng-class='{\"active\":"+name+".activePage==page}' ng-repeat='page in "+name+".visiblePages'>"+
-                        "<a data-kind='contact' href='#' ng-click='"+name+".activatePage(page)' "+
-                        "class='dlist-page page-{{page}}'>"+
-                        "{{page}}</a>"+
-                        "</li>"+
-
-                        "<li ng-class='{\"disabled\":!"+name+".paging.nextGroupAvailable}'>"+
-                        "<a data-kind='contact' href='#' ng-click='"+name+".paging.activateNext()'>"+
-                        "»"+
-                        "</a>"+
-                        "</li>"+
-
-                            //Ultima Pagina
-                        "<li ng-class='{\"disabled\":!"+name+".paging.nextGroupAvailable}'>"+
-                        "<a data-kind='contact' href='#' ng-click='"+name+".paging.activateLast()' "+
-                        "ng-disabled='!"+name+".paging.nextGroupAvailable' class='dlist-page'>{{"+name+".last_page_label}}"+
-                        "</a>"+
-                        "</li>"+
-
-                        "</ul>";
-
-
-                    var footer = '<div class="panel-footer dlist-footer" ng-hide="'+name+'.no_match"><div class="row" style="padding-left: 0; margin-left: -38px;">'+
-                        '<div  class="col-sm-8 text-center pull-left dlist-status-label" ng-hide="'+name+'.no_status_label">'+
-                        '<small style="margin-left: 20px;" class="text-muted inline m-t-sm m-b-sm">{{'+name+'.showing_label}} {{'+name+'.range.start}}-{{'+name+'.range.end}} {{'+name+'.showing_of_label}} {{'+name+'.matches}} {{'+name+'.rows_label}}</small>'+
-                        '</div></div>'+
-                        '<div class="row">'+
-                        '<div ng-hide="'+name+'.totalPages<2"'+' class="col-sm-12 text-right text-center-xs">'+
-                        pagination+
-                        '</div>'+
-                        '</div></div>';
-
-
-                    if(panel){
-
-                        var f = panel+' .panel-footer';
-
-                    }
-
-                } else {
-
+                if(footerMode=="custom"){
 
                     var pagination =
 
@@ -623,7 +568,7 @@ DList.angular.initialize = function(moduleInstance){
                         "ng-show='"+name+".pagination_visible'>"+
 
 
-                            //Primeira pagina
+                        //Primeira pagina
                         "<li ng-class='{\"disabled\":!"+name+".paging.previousGroupAvailable}'>"+
                         "<a href='#' ng-click='"+name+".paging.activateFirst()' "+
                         "ng-disabled='!"+name+".paging.previousGroupAvailable' class='dlist-page'>{{"+name+".first_page_label}}"+
@@ -651,7 +596,7 @@ DList.angular.initialize = function(moduleInstance){
                         "</a>"+
                         "</li>"+
 
-                            //Ultima Pagina
+                        //Ultima Pagina
                         "<li ng-class='{\"disabled\":!"+name+".paging.nextGroupAvailable}'>"+
                         "<a href='#' ng-click='"+name+".paging.activateLast()' "+
                         "ng-disabled='!"+name+".paging.nextGroupAvailable' class='dlist-page'>{{"+name+".last_page_label}}"+
@@ -669,7 +614,7 @@ DList.angular.initialize = function(moduleInstance){
                         '<div  class="col-sm-3 text-center pull-left dlist-status-label" ng-hide="'+name+'.no_status_label">'+
                         '<small class="text-muted inline m-t-sm m-b-sm">{{'+name+'.showing_label}} {{'+name+'.range.start}}-{{'+name+'.range.end}} {{'+name+'.showing_of_label}} {{'+name+'.matches}} {{'+name+'.rows_label}}</small>'+
                         '</div>'+
-                            //'<div class="col-sm-2"></div>'+
+                        //'<div class="col-sm-2"></div>'+
                         '<div class="col-sm-9 text-right text-center-xs">'+
                         pagination+
                         '</div>'+'<div class="col-sm-1"></div></div></div>';
@@ -681,6 +626,39 @@ DList.angular.initialize = function(moduleInstance){
 
                     }
 
+                } else {
+
+
+                    //alert(scope[name].activePage);
+
+                    var pagination = '<div class="btn-group" role="group" aria-label="Pagination group"> ' +
+
+                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activateFirst()' type='button' class='btn btn-default'>{{"+name+".first_page_label}}</button> " +
+
+                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activatePrevious()' type='button' class='btn btn-default'>«</button> " +
+
+                        "<button ng-class='{\"active\":"+name+".activePage==page}' ng-repeat='page in "+name+".visiblePages' ng-click='"+name+".activatePage(page)' type='button' class='btn btn-default'>{{page}}</button> " +
+
+                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages' ng-click='"+name+".paging.activateNext()' type='button' class='btn btn-default'>»</button> " +
+
+                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages'  ng-click='"+name+".paging.activateLast()' type='button' class='btn btn-default'>{{"+name+".last_page_label}}</button> " +
+                        "</div>";
+
+                    var footer = '<div class="panel-footer" ng-hide="'+name+'.no_match">' +
+                        '<p><small class="text-muted inline m-t-sm m-b-sm">{{'+name+'.showing_label}} {{'+name+'.range.start}}-{{'+name+'.range.end}} {{'+name+'.showing_of_label}} {{'+name+'.matches}} {{'+name+'.rows_label}}</small></p>'+
+                        pagination +
+                        '</div>';
+
+
+
+
+
+
+                    if(panel){
+
+                        var f = panel+' .panel-footer';
+
+                    }
 
                 }
 
@@ -1031,8 +1009,6 @@ DList.angular.initialize = function(moduleInstance){
 
                     //Busca os dados da pagina
                     scope[name].fetchPage(number);
-					
-					
 
 
                 };
@@ -1244,34 +1220,18 @@ DList.angular.initialize = function(moduleInstance){
 
                 scope[name].paging.activatePrevious = function(){
 
-                    if(scope[name].paging.activeGroup>0){
+                    var currPage = scope[name].activePage;
 
-                        var previousGroup = scope[name].paging.activeGroup-1;
-                        //alert(previousGroup);
-                        scope[name].paging.activateGroup(previousGroup);
-
-                        var ag = scope[name].paging.groups[scope[name].paging.activeGroup];
-                        scope[name].activatePage(ag[0]);
-
-                    }
+                    scope[name].activatePage(currPage-1);
 
                 };
 
                 scope[name].paging.activateNext = function(){
 
+                    var currPage = scope[name].activePage;
 
-                    if(scope[name].paging.activeGroup<scope[name].paging.groups.length-1){
+                    scope[name].activatePage(currPage+1);
 
-
-                        var ag = scope[name].paging.groups[scope[name].paging.activeGroup];
-
-                        var lp = ag[ag.length-1];
-                        var np = lp+1;
-
-                        scope[name].paging.activateGroup(scope[name].paging.activeGroup+1);
-                        scope[name].activatePage(np);
-
-                    }
 
                 };
 
@@ -1337,7 +1297,7 @@ DList.angular.initialize = function(moduleInstance){
 
                 scope[name].setupPages = function(totalPages,allPages,pageNumber){
 
-                    scope[name].totalPages = totalPages;
+                    scope[name].totalPages = parseInt(totalPages);
 
                     var groups = [];
                     var groupsMap = {};

@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Created by Americo Chaquisse.
- * Date: 3/10/16
- * Time: 2:26 PM
+ * Created by Americo Chaquisse
  */
 class UtilAPI extends AppExtendedWebService
 {
@@ -13,8 +11,13 @@ class UtilAPI extends AppExtendedWebService
      */
     public function check_time()
     {
-
         $this->response(date('Y-m-d G:i:s'));
+    }
+    
+    
+    public function dlist_data($params)
+    {
+        DList::fetchData(Contact, array("id","name","surname","phone", "email"));
     }
 
 }

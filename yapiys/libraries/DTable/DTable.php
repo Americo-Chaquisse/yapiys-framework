@@ -477,7 +477,6 @@ class DTable {
         $bind = $query[1];
         $sql = $query[0];
 
-
         $order_by_excluded_from__sql = explode('ORDER BY',$sql)[0];
 
         $count_query = "SELECT COUNT(*) as total from ($order_by_excluded_from__sql) as tbl";
@@ -489,13 +488,15 @@ class DTable {
         $connection = ActiveRecord\Connection::instance($connection_name);
 
 
-
         $counted_pdo_statement = $connection->query($count_query,$bind);
 
 
         $count_data = $counted_pdo_statement->fetchAll();
 
+
+
         $page_data_pdo_statement = $connection->query($page_sql,$bind);
+        
         $page_data = $page_data_pdo_statement->fetchAll();
 
         $response = array();

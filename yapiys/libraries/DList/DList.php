@@ -305,10 +305,11 @@ class DList {
         $find_by_cols = $final_find_columns;
 
         $connection_name = $table_or_class::$connection;
+
         $connection = ActiveRecord\Connection::instance($connection_name);
         $q = self::getFilter();
         $columns = implode(',',$find_by_cols);
-        $tbl = DTableProcessor::getTableName($table_or_class);
+        $tbl = $table_or_class::table_name();;
 
 
         $execs = explode(' ',$q);
@@ -496,7 +497,15 @@ class DList {
 
     public static function fetchData($table_or_class,$columns,$header = false,$ands = array()){
 
+        if(class_exists($table_or_class)){
+
+            $table_or_class = new $table_or_class();
+
+        }
+
         $query = self::buildFindQuery($table_or_class,$columns,$header,$ands);
+
+
 
         $bind = $query[1];
         $sql = $query[0];
@@ -505,6 +514,8 @@ class DList {
         $order_by_excluded_from__sql = explode('ORDER BY',$sql)[0];
 
         $count_query = "SELECT COUNT(*) as total from ($order_by_excluded_from__sql) as tbl";
+
+
 
         $limit_sql = self::_getLimit();
         $page_sql = $sql.' '.$limit_sql;
@@ -519,7 +530,9 @@ class DList {
 
         $count_data = $counted_pdo_statement->fetchAll();
 
+
         $page_data_pdo_statement = $connection->query($page_sql,$bind);
+
         $page_data = $page_data_pdo_statement->fetchAll();
 
         $response = array();

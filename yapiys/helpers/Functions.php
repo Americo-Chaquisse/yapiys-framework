@@ -350,6 +350,8 @@ function loadConfiguration($name){
      //Caminho de ficheiro de configuracao
     $file = APPLICATION_DIR.APPLICATION_CONFIG_DIR.$name.'.json';
 
+
+
     //Ficheiro existe
     if(file_exists($file)){
 
@@ -392,7 +394,7 @@ function loadConfiguration($name){
         return json_decode($config_file_content);
 
     } else {
-        die('Configuration file not found. You need to create the <b>'.$name.'.json</b> file and fill it accordingly');
+        //die('Configuration file not found. You need to create the <b>'.$name.'.json</b> file and fill it accordingly');
     }
 
 }
