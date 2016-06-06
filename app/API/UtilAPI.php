@@ -17,7 +17,8 @@ class UtilAPI extends AppExtendedWebService
     
     public function dlist_data($params)
     {
-        DList::fetchData(Contact, array("id","name","surname","phone", "email"));
+        sleep(1);
+        DList::fetchData(Contact, array("id","name","surname","phone", "email", "info"));
     }
 
 }

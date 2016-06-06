@@ -22,9 +22,12 @@ Yapiys.UI.template({
     },
     startup:function(url){
 
+
     },
 
     afterViewLoad : function(url){
+
+        console.log(url);
 
     }
 

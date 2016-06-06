@@ -2,4 +2,4 @@ var Startup = {};
 Startup.setup = {};
 
 //app dependeces
-Startup.setup.modules = [];
+Startup.setup.modules = ["ngSanitize"];

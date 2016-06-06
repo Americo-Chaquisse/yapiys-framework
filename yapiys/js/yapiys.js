@@ -1432,12 +1432,11 @@ Yapiys.Internal.configureContext = function(context,create_controller){
 
             
             var after_apply = false;
-            
+
             
             //Controller acaba de ser criado
             if(create_controller){
-                
-                //alert('creating controller');
+
 
              
                 after_apply = function(){
@@ -1461,7 +1460,8 @@ Yapiys.Internal.configureContext = function(context,create_controller){
 
                 
                 };
-                    
+
+                after_apply();
                     
                 //Startup
                 if(!Yapiys.Internal.started_up){
@@ -3834,6 +3834,10 @@ if(Startup.setup){
 }
 
 }
+
+
+
+
 
 
 

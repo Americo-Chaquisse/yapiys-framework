@@ -1,34 +1,28 @@
-//Namespace do DList
+/**
+ * Data list, named DList
+ * A plugin for deasy data list that handle pagination, sorting, search and other stuff
+ * @author: Mário Junior, Américo Chaquisse
+ *
+ *
+ */
+
 var DList = {};
-
 DList.angular = {};
-
 DList.angular.module = Yapiys.angular.module;
 
-
 DList.angular.setModule = function(moduleInstance){
-
     DList.angular.module = moduleInstance;
-
 };
 
 
 DList.angular.initialize = function(moduleInstance){
-
     if(moduleInstance){
-
         DList.angular.module = moduleInstance;
-
     }
-
-
     DList.angular.module.directive('dlist',function($compile,$parse){
 
-
         return {
-
             restrict : "E",
-
             link : function(scope,element,attrs){
 
                 var childs = element.children();
@@ -41,79 +35,42 @@ DList.angular.initialize = function(moduleInstance){
                 var data = [];
                 var filterPlaceholder = __t("Pesquisar...","dlist_search");
                 var name = "";
-
-
                 var onget_start = false;
                 var onget_end = false;
                 var onempty = false;
                 var onmatch = false;
-
                 var loader_to_top = false;
                 var placeholder_to_top = false;
-
                 var no_status_label = false;
-
                 var footer_custom_class="";
-
                 var no_header = false;
-
                 var on_complete_load = false;
-				
 				var footerMode="default";
+                var pagination_bs_class = "default";
 
                 if(attrs.name){
-
                     name = attrs.name;
-
                     scope[name] = {name:name};
-
-
                 }else{
-
                     console.error('Set name attribute on dlist element');
                     return;
-
                 }
-				
-				
-			
+
 				scope[name].first_data_pull = true;
 
 
-                if(attrs.hasOwnProperty('loaderToTop')){
-
-                    loader_to_top = true;
-
-                }
-
-                if(attrs.hasOwnProperty('placeholderToTop')){
-
-                    placeholder_to_top = true;
-
-                }
-
-                if(attrs.hasOwnProperty("noStatusLabel")){
-
-                        no_status_label = true;
-
-                }
-
-
-                if(attrs.hasOwnProperty("footerCustomClass")){
-
-                    footer_custom_class = attrs["footerCustomClass"];
-
-                }
-
                 if(attrs.hasOwnProperty("noHeader")){
-
-                    no_header = true;
+                    no_header = (attrs.noHeader=="true")?true:false;
                 }
 
-                if(attrs.hasOwnProperty("footer")){
-
-                    footerMode = attrs.footer;
+                if(attrs.hasOwnProperty("footerClass")){
+                    footer_custom_class = attrs["footerClass"];
                 }
+
+                if(attrs.hasOwnProperty("paginationBsClass")){
+                    pagination_bs_class = attrs["paginationBsClass"];
+                }
+
 
                 if(attrs.hasOwnProperty("callOnCompleteLoad")){
 
@@ -161,8 +118,6 @@ DList.angular.initialize = function(moduleInstance){
 
                 }
 
-
-				//alert("linking dlist <"+name+"> => "+scope[name].first_data_pull);
 
                 var html = "";
 
@@ -226,7 +181,7 @@ DList.angular.initialize = function(moduleInstance){
 				
 
 
-                scope[name].limits= [3, 5,15,25,35,50,65,80,95,100,125,250,500];
+                scope[name].limits= [3, 5, 10, 15,25,35,50,65,80,95,100,125,250,500];
 
                 scope[name].limits_visible = true;
 
@@ -628,28 +583,23 @@ DList.angular.initialize = function(moduleInstance){
 
                 } else {
 
-
-                    //alert(scope[name].activePage);
-
                     var pagination = '<div class="btn-group" role="group" aria-label="Pagination group"> ' +
 
-                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activateFirst()' type='button' class='btn btn-default'>{{"+name+".first_page_label}}</button> " +
+                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activateFirst()' type='button' class='btn btn-"+pagination_bs_class+"'>{{"+name+".first_page_label}}</button> " +
 
-                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activatePrevious()' type='button' class='btn btn-default'>«</button> " +
+                        "<button ng-disabled='"+name+".activePage==1' ng-click='"+name+".paging.activatePrevious()' type='button' class='btn btn-"+pagination_bs_class+"'>«</button> " +
 
-                        "<button ng-class='{\"active\":"+name+".activePage==page}' ng-repeat='page in "+name+".visiblePages' ng-click='"+name+".activatePage(page)' type='button' class='btn btn-default'>{{page}}</button> " +
+                        "<button ng-class='{\"active\":"+name+".activePage==page}' ng-repeat='page in "+name+".visiblePages' ng-click='"+name+".activatePage(page)' type='button' class='btn btn-"+pagination_bs_class+"'>{{page}}</button> " +
 
-                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages' ng-click='"+name+".paging.activateNext()' type='button' class='btn btn-default'>»</button> " +
+                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages' ng-click='"+name+".paging.activateNext()' type='button' class='btn btn-"+pagination_bs_class+"'>»</button> " +
 
-                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages'  ng-click='"+name+".paging.activateLast()' type='button' class='btn btn-default'>{{"+name+".last_page_label}}</button> " +
+                        "<button ng-disabled='"+name+".activePage=="+name+".totalPages'  ng-click='"+name+".paging.activateLast()' type='button' class='btn btn-"+pagination_bs_class+"'>{{"+name+".last_page_label}}</button> " +
                         "</div>";
 
-                    var footer = '<div class="panel-footer" ng-hide="'+name+'.no_match">' +
+                    var footer = '<div class="panel-footer '+footer_custom_class+'" ng-hide="'+name+'.no_match">' +
                         '<p><small class="text-muted inline m-t-sm m-b-sm">{{'+name+'.showing_label}} {{'+name+'.range.start}}-{{'+name+'.range.end}} {{'+name+'.showing_of_label}} {{'+name+'.matches}} {{'+name+'.rows_label}}</small></p>'+
                         pagination +
                         '</div>';
-
-
 
 
 
@@ -673,7 +623,7 @@ DList.angular.initialize = function(moduleInstance){
 
 
                 //Configura o ng-repeat dos items da lista
-                var all_rows =  $(list).find('li');
+                var all_rows =  $(list).children();
                 var list_row = all_rows[0];
                 $(list_row).attr('ng-repeat',row_name+' in '+name+'.data');
                 $(list_row).addClass('dlist-row');
@@ -749,6 +699,7 @@ DList.angular.initialize = function(moduleInstance){
                 "<list class='dlist-list "+list_classes+
                 "' id='"+list_id+"'>"+$(list).html()+
                 "</list>"+append_content+"<div class='dlist-footers "+footer_custom_class+"'>"+footer+"</div><div>";
+
 
 
                 //Assistir a alteracao do limit
